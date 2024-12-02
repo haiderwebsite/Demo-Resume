@@ -1,0 +1,373 @@
+
+.bg-colorAdd{
+    background-color: #000000;
+}
+.container-fluid{
+  --bs-gutter-x: 0rem;
+}
+/* navbar css */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.html{
+    font-size: 62.5%;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+.container{
+    
+    width: 100%;
+    margin: auto;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #000000;
+    color: #000;
+    opacity: 0.85;
+    z-index: 100;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items{
+    order: 2;
+    display: flex;
+}
+.logo{
+    order: 1;
+    font-size: 2.3rem;
+
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.navbar a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover{
+    color: #ffbd39;
+    border-bottom: 2px solid #ffbd39;
+}
+nav ul li a.active {
+  color: #ffbd39;
+  
+}
+
+  /* second-section */
+.second-section h3, h1{
+    color: #ffbd39;
+}
+.second-section span{
+    color: #fff;
+}
+.second-section p{
+    color: azure;
+}
+.second-section a{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #ffbd39;
+    background-color: #ffbd39;
+    padding: 10px 15px;
+    border-radius: 5%;
+}
+
+/* button  */
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding for tablet design */
+    margin: 10px;
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+    font-size: 1rem; /* Adjust for readability on tablets */
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF; /* Primary button color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  }
+
+  /* Hover effect */
+  .btn:hover {
+    background-color: #ffffff; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom-in effect */
+    color: #000000;
+  }
+
+  /* Active effect */
+  .btn:active {
+    background-color: #003f7f; /* Even darker shade for active state */
+    transform: scale(0.95); /* Slight shrink effect */
+  }
+
+  /* Responsive design for tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .btn {
+      font-size: 1.2rem; /* Larger font size for tablets */
+      padding: 12px 25px; /* More spacing for tablets */
+    }
+  }
+
+.img-setting img{
+  width: 100%;
+  object-fit: cover;
+}
+/* about section start */
+.about-me{
+  color: #fff;
+  padding: 50px 0;
+  background-color: #000000;
+}
+.about-me h3{
+  font-size: 1.5rem;
+  padding-left: 20px;
+  
+  order: 1;
+}
+.about-me h2{
+  font-size: 3rem;
+  position: relative;
+  top: -32px;
+  left: 10px;
+
+  color: #181515;
+  font-weight: bold;
+}
+.about-me p {
+  color: #706e6e;
+}
+.about-me ul{
+  list-style-type: none;
+  padding: 0;
+}
+.about-me ul li{
+  color: #fff;
+}
+.about-me span{
+  padding-left: 1rem;
+  color: #706e6e;
+}
+.about-me h5 span{
+  padding-left: 0;
+  color: #ffbd39;
+}
+.cv-btn{
+  background-color: #ffbd39;
+  color: #000000;
+}
+.cv-btn:hover{
+  background-color: #fff;
+  color: #000000;
+}
+.about-me img{
+  background-color: #000000;
+}
+
+/* resume-section */
+.heading-nav-item h3{
+  color: #fff;
+  font-size: 2rem;
+}
+.heading-nav-item h2{
+  color: #181515;
+  position: relative;
+  top: -37px;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+.heading-nav-item p{
+  color: #706e6e;
+  position: relative;
+  top: -2.5rem;
+  padding: 0 3rem;
+}
+.resume .box{
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+}
+.resume .box h4{
+  font-weight: 700;
+  color: #ffbd39;
+}
+.resume .box h5{
+  color: #fff;
+  font-weight: 400;
+}
+.resume .box a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #706e6e;
+  font-weight: 600;
+  line-height: 2rem;
+  word-spacing: 6px;
+}
+.resume .box p{
+  color: #706e6e;
+  padding-top: 1rem;
+}
+.service-box{
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+}
+.service-box i{
+  font-size: 4rem;
+  color: #ffbd39;
+}
+.service-box p{
+  font-size: 1.1rem;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.service-box span{
+  width: 40px;
+  border: 1px solid #ffbd39;
+  display: block;
+  margin: 0 auto;
+}
+/* skill section */
+.my-skill h6{
+  color: #fff;
+  word-spacing: 400px;
+}
+.my-skill .color-prgress{
+  color: #ffbd39;
+  background-color: #ffbd39;
+}
+/* projects section */
+.img-box{
+
+}
+.img-box img{
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  
+}
+.img-box figure figcaption{
+  color: #ffbd39;
+  word-spacing: 5px;
+  padding: 15px 0;
+  font-weight: 500;
+}
+.img-box h5{
+  font-size: 1.2rem;
+  color: #fff;
+}
+.img-box p{
+  font-size: 1rem;
+  color: #706e6e;
+}
+
+/* counter css */
+.counter
+{
+    text-align: center;
+}
+
+.counter-count
+{
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+}
+.count-up{
+  background-color: #1e1e1e;
+  padding: 20px ;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.count-up p{
+  font-size: 2rem;
+  color: #ffbd39;
+}
+.count-up h3{
+  font-size: 1.3rem;
+  color: #969191;
+}
+.bg-img{
+  background-image: url(../img/bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.content{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+/* contact a */
+.contact-part{
+ text-align: center;
+}
+.contact-part .box-3{
+  padding: 20px;
+}
+.contact-part .box-3 i{
+  border: 1px solid #1e1e1e;
+  border-radius: 50%;
+  padding: 25px;
+  font-size: 2rem;
+  background-color: #1e1e1e;
+  color: #ffbd39;
+  margin-bottom: 5px;
+}
+.contact-part .box-3 h6{
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 10px 0;
+}
+.contact-part .box-3 p{
+  font-size: 1rem;
+  color: #706e6e;
+}
+.contact-part .box-3 a{
+  text-decoration: none;
+  color: #e4dadadc;
+}
+.img-box2{
+  width: 100%;
+  height: 250px;
+}
+.img-box2 img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  
+}
+/* form css */
+
